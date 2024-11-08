@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Noto Kufi Arabic", sans-serif;
+}
+body {
+  height: 100vh;
+}
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+.post-content p {
+  margin-bottom: 0.5rem;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content a {
+  color: rgb(73, 149, 199);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .post-content a {
+  color: red;
+}
+#arabic{
+  direction: rtl;
+}
+#english{
+  direction:ltr;
+}
+
+.specialbg{
+  background-image: url("./assets/websitebackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.aboutbg{
+  background-image: url("./assets/boy-fantasy-world.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+
+
+
+/* SkyAnimation.css */
+.stars,
+.twinkling,
+.clouds {
+  position: absolute;
+  display: block;
+  top: 10;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 750px;
+}
+
+.stars {
+  z-index: 0;
+  background: #000 url('https://i.ibb.co/g91MwKZ/stars.png') repeat top center;
+}
+
+.twinkling {
+  z-index: 1;
+  background: transparent url('https://i.ibb.co/pnJQm6V/twinkling.png') repeat top center;
+  animation: move-twink-back 200s linear infinite;
+}
+
+.clouds {
+  z-index: 2;
+  background: transparent url('https://i.ibb.co/BsG8rYZ/clouds.png') repeat top center;
+  animation: move-clouds-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+  from { background-position: 0 0; }
+  to { background-position: -10000px 5000px; }
+}
+
+@keyframes move-clouds-back {
+  from { background-position: 0 0; }
+  to { background-position: 10000px 0; }
+}
+
+
+
+
+
+.special-background{
+  display: block;
+}
+
+.minhight{
+  min-height: 1500px;
+}
+
+
+
