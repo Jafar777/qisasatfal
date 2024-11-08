@@ -56,6 +56,13 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+@media (max-width: 768px) {
+  .specialbg {
+    background-size: contain;
+    background-position: top center;
+  }
+}
+
 .aboutbg{
   background-image: url("./assets/boy-fantasy-world.jpg");
   background-size: cover;
