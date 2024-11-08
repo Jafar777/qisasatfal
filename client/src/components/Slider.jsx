@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Slider.css'; // Import the CSS file separately
 import ro3b from '../assets/ro3b.jpg'
 import adventure from '../assets/adventure.jpg'
 import mystery from '../assets/mystery.jpg'
