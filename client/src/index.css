@@ -50,11 +50,12 @@ body {
 }
 
 .specialbg{
-  background-image: url("https://github.com/Jafar777/qisasatfal/blob/main/client/src/assets/websitebackground.jpg?raw=true");
+  background-image: url("https://github.com/Jafar777/qisasatfal/blob/main/client/src/assets/websitebackground2.jpg?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
+  
 }
 @media (max-width: 768px) {
   .specialbg {
