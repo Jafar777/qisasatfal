@@ -58,8 +58,7 @@ body {
 }
 @media (max-width: 768px) {
   .specialbg {
-    background-size: contain;
-    background-position: top center;
+    background-attachment:local ;
   }
 }
 
