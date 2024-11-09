@@ -127,8 +127,8 @@ const Slider = () => {
           <div className="text">قصص حيوانات</div>
         </div>
 
-        <a className="prev" onClick={() => plusSlides(-1)}>❮</a>
-        <a className="next" onClick={() => plusSlides(1)}>❯</a>
+        <button className="prev" onClick={() => plusSlides(-1)}>❮</button>
+        <button className="next" onClick={() => plusSlides(1)}>❯</button>
       </div>
       <br />
 
