@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import nono from '../assets/nono.png';
 
 
-import {BsTiktok , BsFacebook, BsInstagram, BsTwitterX, } from 'react-icons/bs';
+import {BsTiktok , BsFacebook, BsInstagram, BsTwitterX, BsDiscord, } from 'react-icons/bs';
 export default function FooterCom() {
   return (
     <Footer container  className='border border-t-8 border-red-500 dark:border-pink-500'>
@@ -47,14 +47,14 @@ export default function FooterCom() {
               <Footer.Title title='تابعنا'  className='font-bold text-left' id='arabic' />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href=''
+                  href='https://www.instagram.com/qisasatfal/'
                   target='_blank'
                   rel='noopener noreferrer'
                   id='arabic'
                 >
-                  Facebook
+                  Instagram
                 </Footer.Link>
-                <Footer.Link href='https://discord.gg/q6d2jXJFR4' target='_blank' id='arabic'>Discord</Footer.Link>
+                <Footer.Link href='https://www.tiktok.com/@qisasatfal' target='_blank' id='arabic'>TikTok</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -73,10 +73,10 @@ export default function FooterCom() {
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href='#' icon={BsFacebook}/>
-            <Footer.Icon href='#' icon={BsInstagram}/>
-            <Footer.Icon href='#' icon={BsTwitterX}/>
-            <Footer.Icon href='#' icon={BsTiktok }/>
+            <Footer.Icon href='https://discord.gg/q6d2jXJFR4' icon={BsDiscord}/>
+            <Footer.Icon href='https://www.instagram.com/qisasatfal/' icon={BsInstagram}/>
+            <Footer.Icon href='https://x.com/qisasatfal' icon={BsTwitterX}/>
+            <Footer.Icon href='https://www.tiktok.com/@qisasatfal' icon={BsTiktok }/>
 
           </div>
         </div>
