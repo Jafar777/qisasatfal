@@ -73,10 +73,10 @@ export default function FooterCom() {
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href='https://discord.gg/q6d2jXJFR4' icon={BsDiscord}/>
-            <Footer.Icon href='https://www.instagram.com/qisasatfal/' icon={BsInstagram}/>
-            <Footer.Icon href='https://x.com/qisasatfal' icon={BsTwitterX}/>
-            <Footer.Icon href='https://www.tiktok.com/@qisasatfal' icon={BsTiktok }/>
+            <Footer.Icon aria-label="Join us on Discord" href='https://discord.gg/q6d2jXJFR4' icon={BsDiscord}/>
+            <Footer.Icon aria-label="Follow us on Instagram"  href='https://www.instagram.com/qisasatfal/' icon={BsInstagram}/>
+            <Footer.Icon aria-label="Follow us on Twitter" href='https://x.com/qisasatfal' icon={BsTwitterX}/>
+            <Footer.Icon aria-label="Follow us on TikTok"  href='https://www.tiktok.com/@qisasatfal' icon={BsTiktok }/>
 
           </div>
         </div>
