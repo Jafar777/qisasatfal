@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className='min-h-screen flex items-center justify-center aboutbg'>
       <div className='max-w-2xl mx-auto p-3 text-center'>
-        <div>
+        <div className="special-text p-1">
           <h1 className='text-3xl text-white font font-semibold text-center my-7'>
             قصص أطفال
           </h1>
