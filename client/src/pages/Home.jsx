@@ -27,12 +27,12 @@ export default function Home() {
             
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto z-50'>
         <div className='flex flex-row items-center justify-around'>
-          <h1 className='text-3xl font-bold lg:text-6xl text-white'>موقع قصص أطفال</h1>
+          <h1 className='text-3xl font-bold lg:text-6xl text-white special-text'>موقع قصص أطفال</h1>
         
         </div>
         
         
-        <p className='text- lg:text-lg md:text-base text-xs sm:text-sm text-white'>
+        <p className='text- lg:text-lg md:text-base text-xs sm:text-sm text-white font-bold special-text'>
         الموقع الأول  لـ قصص الأطفال التي تُروى قبل النوم , المنصة هي منصة مبتكرة تهدف إلى توفير محتوى قصصي ممتع وتعليمي للأطفال.<br/> يقدم الموقع مجموعة واسعة من القصص الهادفة الموجهة للأطفال بمختلف الأعمار، تُقدم بأسلوب مبسط وسهل الفهم لتعزيز حب القراءة وتنمية الخيال.<br/> يتميز الموقع بإمكانية تخصيص القصة حسب اهتمامات الطفل، مما يجعل كل قصة تجربة فريدة تلهم الأطفال وتغرس فيهم القيم الأخلاقية بطريقة مسلية  وملهمة  .        
         </p>
       <div>

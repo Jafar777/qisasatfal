@@ -231,3 +231,6 @@ img { vertical-align: middle; }
   max-width: 900px;
 }
 
+.special-text{
+  background-color: rgba(0,0,0, 0.5);
+}
