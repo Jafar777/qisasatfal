@@ -7,7 +7,7 @@ import PostCard from '../components/PostCard';
 import { Button } from 'flowbite-react';
 import ScrollToTop from '../components/ScrollToTop';
 import Slider from '../components/Slider';
-
+import {Helmet} from "react-helmet";
 
 
 export default function Home() {
@@ -22,7 +22,20 @@ export default function Home() {
     fetchPosts();
   }, []);
   return (
-    <div id='arabic' className='minhight'>     
+    <div id='arabic' className='minhight'>   
+     <Helmet>
+        <title>موقع قصص أطفال | قصص ممتعة قبل النوم</title>
+        <meta name="description" content="الموقع الأول لقصص الأطفال التي تُروى قبل النوم. اكتشف مجموعة واسعة من القصص التعليمية والمسلية للأطفال بمختلف الأعمار." />
+        <meta name="keywords" content="قصص أطفال, قصص قبل النوم, قصص تعليمية, موقع قصص, قصص ترفيهية, قصص عربية للأطفال" />
+        <meta name="author" content="qisasatfal.com" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="موقع قصص أطفال | قصص ممتعة قبل النوم" />
+        <meta property="og:description" content="اكتشف أفضل قصص الأطفال التي تُروى قبل النوم والموجهة لتنمية الخيال وتعزيز القيم الأخلاقية." />
+        <meta property="og:image" content="https://qisasatfal.com/images/og-image.jpg" />
+        <meta property="og:url" content="https://qisasatfal.com" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://qisasatfal.com" />
+      </Helmet>  
       <div className='flex specialbg '>
             
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto z-50'>
