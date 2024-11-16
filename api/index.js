@@ -35,12 +35,20 @@ app.use('/api/auth', authRoutes);
 app.use('/api/post', postRoutes);
 app.use('/api/comment', commentRoutes);
 
+// Serve static files from the React app
 app.use(express.static(path.join(__dirname, '/client/dist')));
 
+// Serve ads.txt file
+app.get('/ads.txt', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'dist', 'ads.txt'));
+});
+
+// Catch-all handler for React app
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
 });
 
+// Error handler
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
   const message = err.message || 'Internal Server Error';
